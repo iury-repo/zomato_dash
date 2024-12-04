@@ -101,5 +101,5 @@ with st.container():
         fast_map_chart(df1) 
 
         st.markdown('')
-    elif map_option == 'Detailed mode ( Full detailed markers but with significantly slow loading speed )': 
+    else : 
         map_chart(df1)  
