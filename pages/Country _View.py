@@ -28,7 +28,7 @@ pio.templates.default = 'plotly'
 
 # Import dataset
 
-df = pd.read_csv('dataset\zomato.csv')
+df = pd.read_csv('\dataset\zomato.csv')
 
 # Data cleaning
 
